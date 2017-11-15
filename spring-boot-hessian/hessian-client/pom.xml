@@ -4,12 +4,13 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>cn.timebusker</groupId>
-		<artifactId>spring-boot</artifactId>
+		<groupId>com.aibaba.hessian</groupId>
+		<artifactId>spring-boot-hessian</artifactId>
 		<version>2.0.0</version>
 	</parent>
-	<artifactId>spring-boot-1-QuickStart</artifactId>
-	<name>spring-boot-1-QuickStart</name>
+	<artifactId>hessian-client</artifactId>
+	<name>hessian-client</name>
+	<packaging>jar</packaging>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,13 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-			<!-- <exclusions>
-				排除默认日志框架
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>
-				</exclusion> 
-			</exclusions>-->
 		</dependency>
 		<!-- spring-boot-starter-test：测试模块，包括JUnit、Hamcrest、Mockito -->
 		<dependency>
@@ -62,7 +56,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>spring-boot-1-QuickStart</finalName>
+		<finalName>hessian-client</finalName>
 	</build>
 
 </project>
