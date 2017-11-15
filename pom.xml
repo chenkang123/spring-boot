@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.timebusker</groupId>
     <artifactId>spring-boot</artifactId>
@@ -79,7 +78,8 @@
         <module>spring-boot-17-monitor</module>
         <module>spring-boot-18-MQ</module>
         <module>spring-boot-19-Definition-Starter</module>
-    </modules>
+    <module>spring-boot-hessian</module>
+  </modules>
 
     <repositories>
         <repository>
