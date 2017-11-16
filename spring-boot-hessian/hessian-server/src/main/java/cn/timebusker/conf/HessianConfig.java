@@ -22,7 +22,7 @@ public class HessianConfig {
 	private ApiService apiService;
 	
 
-	@Bean(name = "apiServiceExporter")
+	@Bean(name = "/ApiService")
 	public HessianServiceExporter accountService() {
 		HessianServiceExporter exporter = new HessianServiceExporter();
 		exporter.setService(apiService);
