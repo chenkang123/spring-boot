@@ -23,7 +23,7 @@ public class HessianConfig {
 	@Bean
     public HessianProxyFactoryBean helloClient() {
         HessianProxyFactoryBean factory = new HessianProxyFactoryBean();
-        factory.setServiceUrl("http://localhost:8089/ApiService");
+        factory.setServiceUrl("http://172.20.126.82:8089/ApiService");
         factory.setServiceInterface(ApiService.class);
         return factory;
     }
