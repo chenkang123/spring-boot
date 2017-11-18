@@ -19,9 +19,9 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.caucho</groupId>
-			<artifactId>hessian</artifactId>
-			<version>4.0.38</version>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.2.5</version>
 		</dependency>
 		<!-- Spring Boot 核心三个模块 START -->
 		<!-- 核心模块，包括自动配置支持、日志和YAML -->
